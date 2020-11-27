@@ -9,7 +9,7 @@ describe("VALID shipping address tests", function() {
     myShippingAddress.street = 'De la Juventud';
     myShippingAddress.postalCode = '31000';
 
-    it("name is valid", function() {
+    it("Data is valid", function() {
         expect(myShippingAddress.isValid()).toBe(true);
     });
 
@@ -19,7 +19,7 @@ describe("NOT valid shipping address tests", function() {
 
     const voidShippingAddress = new ShippingAddress();
 
-    it("name is empty", function() {
+    it("Data is NOT valid", function() {
         expect(voidShippingAddress.isValid()).not.toBe(true);
       });
 
