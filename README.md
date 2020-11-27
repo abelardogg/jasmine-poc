@@ -1,2 +1,2 @@
 # jasmine-poc
-poc jasmine tests
+poc jasmine tests STANDALONE
